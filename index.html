@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet"  href="CSS">
+    </head>
+    <header>
+        <h1>Consultorio Dental</h1>
+    </header>
+    <body onload="startDB();">
+    <div id="form">
+    
+    <div class="fish" id="fish"></div>
+    <div class="fish" id="fish2"></div>
+    
+    <form id="waterform" method="post">
+    
+    <div class="formgroup" id="name-form">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" />
+    </div>
+    
+    <div class="formgroup" id="email-form">
+        <label for="email">Apellido</label>
+        <input type="email" id="apellido" name="email" />
+    </div>
+    <div class="formgroup" id="email-form">
+        <label for="email">Dia</label>
+        <input type="date" id="dia" name="email" />
+    </div>
+    <div class="formgroup" id="email-form">
+        <label for="email">Hora</label>
+        <input type="time" id="hora" name="email" />
+    </div>
+    <button  type="button" onclick="insert();" >Registrar</button>
+    </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
